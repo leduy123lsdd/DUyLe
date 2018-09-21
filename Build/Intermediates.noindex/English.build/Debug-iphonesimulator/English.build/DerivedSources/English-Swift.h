@@ -212,6 +212,8 @@ SWIFT_CLASS("_TtC7English18MainViewController")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
 
+
+
 @class UICollectionViewCell;
 
 @interface MainViewController (SWIFT_EXTENSION(English)) <UICollectionViewDataSource, UICollectionViewDelegate>
@@ -234,15 +236,6 @@ SWIFT_CLASS("_TtC7English6myCell")
 @interface myCell : UICollectionViewCell
 @property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified imageCell;
 - (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
-- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-SWIFT_CLASS("_TtC7English13tableviewCell")
-@interface tableviewCell : UITableViewCell
-- (void)awakeFromNib;
-- (void)setSelected:(BOOL)selected animated:(BOOL)animated;
-- (nonnull instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString * _Nullable)reuseIdentifier OBJC_DESIGNATED_INITIALIZER SWIFT_AVAILABILITY(ios,introduced=3.0);
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
 
